@@ -1,0 +1,5 @@
+
+*.pdf
+backend/venv
+node_modules
+backend/modules/__pycache__
