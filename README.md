@@ -3,12 +3,21 @@
 # DOMAIN LEARNER ASSIST SOFTWARE(AXON)
 
 # Installation And Running Frontend
+Add the ENV Variables in the ".env.local" at 'axon/' refer to the docs [Next Auth](https://next-auth.js.org/)
+```
+NEXTAUTH_SECRET=
+NEXTAUTH_URL=
+GOOGLE_CLIENT_ID=
+GOOGLE_CLIENT_SECRET=
+```
+
 ```bash
 git clone https://github.com/spectrathon/AC_DC/
 cd axon 
 npm i
 npm run build
 npm run start
+
 ```
 
 # Installation And Running Backend
@@ -20,8 +29,6 @@ pip install -r requirements.txt
 venv/Scripts/activate
 python app.py
 ```
-
-
 
 
 # VISION
